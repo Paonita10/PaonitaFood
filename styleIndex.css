@@ -1,0 +1,136 @@
+html {
+    height : 99%;
+}
+
+body {
+    font-family : calibri, verdana, sherif;
+	color : black;
+    background-color : white;
+    height : 99%;
+}
+
+header {
+    color : rgb(255, 255, 255);
+    background-color : #62b6cb;
+    height : 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+#logo {
+    height: 94%;
+}
+
+h2{
+    font-size: 250%;
+}
+
+
+#barreHaut {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    width: 100%; 
+}
+
+#userCon {
+    color: #1b4965;
+    margin: 0;
+}
+
+#menuHaut, #connexionHaut {
+    margin: 0;
+    padding: 1%;
+}
+
+#connexionHaut {
+    padding-right: 1%;
+}
+
+#boutonCommander{
+    border: 8px solid #1b4965;
+    background-color: #62b6cb; 
+    padding: 5px;
+    border-radius: 40px;
+    width: 100%;
+    height: 38px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    margin-right: auto;
+}
+
+#navBoutonCommander {
+    margin-right: auto;
+}
+
+#principal {
+    height: 70%;
+    background-color: #cae9ff;
+}
+
+#barreBas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color : #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+#aller, #logoMaps, #suivre, #logoFacebook {
+    display : inline-block;
+	vertical-align: middle ;
+    color: #1b4965;
+}
+
+#logoFacebook {
+    margin-left: 20px;
+}
+
+#logoMaps {
+    margin-left: 9px;
+}
+
+footer {
+    background-color : #62b6cb;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 3% 10%;
+}
+
+a:hover {
+    color : #1b4965;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+
+/*
+#barreHaut {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    width: 100%; 
+}
+
+#menuHaut, #connexionHaut {
+    margin: 0;
+    padding: 1%;
+}
+
+#commanderHaut {
+    margin-left: auto;
+}
+
+#connexionHaut {
+    padding-right: 1%;
+}*/

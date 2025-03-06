@@ -1,0 +1,188 @@
+html {
+    height : 99%;
+}
+
+body {
+    font-family : calibri, verdana, sherif;
+	color : black;
+    background-color : white;
+    height : 99%;
+}
+
+header {
+    color : rgb(255, 255, 255);
+    background-color : #62b6cb ;
+    height : 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+#logo {
+    height: 94%;
+}
+
+#barreHaut {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    height: -9%;
+}
+
+#menuHaut, #connexionHaut {
+    margin: 0;
+    padding: 1%;
+}
+
+#connexionLettre {
+    font-size: 250%;
+}
+
+#boutonCommander{
+    border: 8px solid #1b4965;
+    background-color: #62b6cb; 
+    padding: 5px;
+    border-radius: 40px;
+    width: 100%;
+    height: 38px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    margin-right: auto;
+}
+
+#navBoutonCommander {
+    margin-right: auto;
+}
+
+
+#principal {
+    height : 70%;
+    background-color : #cae9ff;
+}
+
+#menuNav, section{
+    display : inline-block;
+	vertical-align : middle;
+}
+
+#menuNav {
+    width : 27%;    
+    height : 100%;
+}
+
+section {
+    width : 72%;
+}
+
+h2 {
+    font-size: 250%;
+    text-align: center;
+}
+
+.menuGauche {
+    color : white;
+    text-decoration: none;
+    background-color : #62b6cb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height : calc(100% / 3);
+}
+
+.menuGauche:hover {
+    background-color : #1b4965;
+    color : white;
+}
+
+#sectionRose {
+    text-align: center;
+}
+
+#formulaire {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 8px solid #1b4965;
+    border-radius: 40px;
+    width: 50%;
+    background-color: #62b6cb;
+    justify-content: center;
+    margin:auto;
+}
+
+#formulaireTexte {
+    color : #1b4965;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+#nom, #prenom, #identifiant, #mail, #telephone, #mdp {
+    height: 30px;
+    border: 8px solid #1b4965;
+    background-color: #ffffff; 
+    padding: 5px;
+    border-radius: 40px;
+    color: #1b4965;
+    font-size: 150%;
+    text-align: center;
+    width: 300px;
+}
+
+#go {
+    height: 60px;
+    border: 8px solid #1b4965;
+    background-color: #cae9ff; 
+    padding: 5px;
+    border-radius: 40px;
+    color: #1b4965;
+    text-align: center;
+    width: 140px;
+    font-size: 150%;
+    font-weight: bold;
+    margin-bottom: 4%;
+    margin-top: 4%;
+}
+
+#barreBas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color : #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+#aller, #logoMaps, #suivre, #logoFacebook {
+    display : inline-block;
+	vertical-align: middle ;
+    color: #1b4965;
+}
+
+#logoFacebook {
+    margin-left: 20px;
+}
+
+#logoMaps {
+    margin-left: 9px;
+}
+
+footer {
+    background-color : #62b6cb;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 3% 10%;
+}
+
+a:hover {
+    color : #1b4965;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
